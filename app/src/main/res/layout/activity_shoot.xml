@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="net.mosajon.idcardcopy.ShootActivity">
+
+
+    <net.mosajon.idcardcopy.ClipCamera
+        android:id="@+id/surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <net.mosajon.idcardcopy.view.shadow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:rotation="90"
+        android:text="保持身份证在取景框内，横向拍摄\n\n身份证若变形，以顶边为准两端对齐"
+        android:textColor="#fff"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btn_shoot"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sure_white" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cancle_white" />
+
+</RelativeLayout>

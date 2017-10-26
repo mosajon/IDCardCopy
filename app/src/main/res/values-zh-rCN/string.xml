@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">身份证复印</string>
+    <string name="title_home">复印</string>
+    <string name="title_dashboard">选项</string>
+    <string name="title_notifications">关于</string>
+
+    <string name="home_context1">正面</string>
+    <string name="home_context2">反面</string>
+    <string name="home_button">预览</string>
+
+    <string name="water_mark">复印件水印</string>
+    <string name="mark_checktv1">事由</string>
+    <string name="mark_checktv2">有效期</string>
+    <string name="mark_to">至</string>
+    <string name="mark_editview1_hint">仅限办理公司登记事宜。</string>
+    <string name="mark_editview2_hint">开始日期：1月1日</string>
+    <string name="mark_editview3_hint">结束日期：1月31日</string>
+    <string name="mark_button">确定</string>
+
+    <string name="app_version">身份证复印 1.1</string>
+    <string name="about_copyright">版本所有 2017 Mosajon</string>
+    <string name="about_homepage">http://weibo.com/mosajon</string>
+
+</resources>

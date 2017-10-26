@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IDCardCopy</string>
+    <string name="title_home">Copy</string>
+    <string name="title_dashboard">Option</string>
+    <string name="title_notifications">About</string>
+
+    <string name="home_context1">Front</string>
+    <string name="home_context2">Back</string>
+    <string name="home_button">Preview</string>
+
+    <string name="water_mark">IDCardCopy Watermark</string>
+    <string name="mark_checktv1">Thing</string>
+    <string name="mark_checktv2">Term</string>
+    <string name="mark_to">To</string>
+    <string name="mark_editview1_hint">Some Things</string>
+    <string name="mark_editview2_hint">Start Date</string>
+    <string name="mark_editview3_hint">End Date</string>
+    <string name="mark_button">OK</string>
+
+    <string name="app_version">IDCardCopy 1.1</string>
+    <string name="about_copyright">Copyright 2017 Mosajon</string>
+    <string name="about_homepage">http://weibo.com/mosajon</string>
+
+</resources>
